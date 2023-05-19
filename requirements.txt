@@ -3,12 +3,13 @@ torch==1.9.1
 torchvision==0.10.1
 torchtext==0.10.1
 torchaudio==0.9.1
+
 #supporting pkgs
 click==8.0
 pytorch-lightning==1.2.3
-onnx==1.13.0
-onnxruntime==1.13.0
-onnxruntime-gpu==1.13.0
+onnx==1.13.1
+onnxruntime==1.13.1
+onnxruntime-gpu==1.13.1
 spacy~=3.5.0
 diskcache==5.2.1
 SoMaJo==2.1.2
