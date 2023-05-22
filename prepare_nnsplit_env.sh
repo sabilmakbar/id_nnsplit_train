@@ -24,4 +24,5 @@ source $venv_folder_path/bin/activate
 
 pip install -r requirements.txt
 
+python -m spacy download en_core_web_sm
 # sudo apt-get build-dep python3-lxml
