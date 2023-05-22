@@ -5,7 +5,7 @@ venv_name="nnsplit_train_env"
 venv_folder_path="../$venv_name"
 
 echo "Setting up NNSplit train environment name as "$venv_name""
-echo "NNSplit train environment is located on "$folder_path""
+echo "NNSplit train environment is located on "$venv_folder_path""
 
 mkdir $venv_folder_path
 python -m venv $venv_folder_path
@@ -19,6 +19,7 @@ source $venv_folder_path/bin/activate
 # pip uninstall -y torchvision
 # pip uninstall -y torchtext
 # pip uninstall -y torchaudio
+# pip uninstall -y nnsplit
 
 
 pip install -r requirements.txt
