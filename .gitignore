@@ -1,6 +1,7 @@
 #cached files
 *.pkl
 texts.txt
+setup_github.sh
 lightning_logs
 .ipynb_checkpoints
 __pycache__
